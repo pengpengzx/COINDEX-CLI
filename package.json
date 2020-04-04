@@ -1,0 +1,27 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "nodeJs demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./bin/coindex.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengpengzx/COINDEX-CLI.git"
+  },
+  "author": "pengpengzx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengpengzx/COINDEX-CLI/issues"
+  },
+  "homepage": "https://github.com/pengpengzx/COINDEX-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
