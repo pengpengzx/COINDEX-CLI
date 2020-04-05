@@ -3,4 +3,11 @@
  * @Author: Yepeng Zhang
  * @LastEditors: Yepeng Zhang
  */
-console.log('Hello from coindex')
+const program = require('commander')
+const pkg = require('../package.json')
+
+program
+    .version(pkg.version)
+    .command('key', 'Manage API key -- https://nomics.com')
+    .command('check', 'Check Coin Price Info')
+    .parse(process.argv)
